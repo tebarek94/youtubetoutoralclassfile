@@ -1,0 +1,37 @@
+*******************************************************************
+
+    Full Stack Developer Roadmap 
+
+    *******************************************************************
+
+    **********************
+    Front-End Development:
+    ***********************
+    You've learned HTML, CSS, and JavaScript fundamentals, 
+    enabling you to create interactive and visually appealing web interfaces. 
+
+    ***********************
+    Back-End Development: 
+    **********************
+    You've explored back-end technologies like Node. js, Express,
+    and databases such as MongoDB, for building robust server-side applications
+
+
+    There are three types of Web Development:
+    Front-end Development: This is the interface of a website that the users see and interact with directly via the browser.
+    Front-end developers use languages like HTML, CSS, and JavaScript to create the outer design, and functionality that the end users can see in their web browsers.
+    Back-end Development: This is a backend component of a website that contains the main logic running in the background and making your website work as expected.
+    Back-end developers work on the server-side things of a website, and some of their common tasks include working on the storage part of large data,
+      authentication authorization, and background communications using API.
+    Full-stack Development: Full-stack developers work on both the front-end and back-end of a website. 
+    It is the combination of the work done in frontend and backend development.
+    There will be various responsibilities for you as a web developer. Some of the key tasks are:
+
+    Creation of your basic Website
+    Front-end Development
+    Back-end Development
+    Database Management
+    Testing
+    Deployment
+    Maintenance
+    Documentation

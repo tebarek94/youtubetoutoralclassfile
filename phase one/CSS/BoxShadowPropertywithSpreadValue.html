@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .boxes {
+            padding: 50px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .first {
+            background-color: lightblue;
+            box-shadow: 10px 10px 10px 5px;
+        }
+
+        .second {
+            background-color: lightblue;
+            box-shadow: 10px 10px 20px 15px;
+        }
+
+        .third {
+            background-color: lightblue;
+            box-shadow: 10px 10px 40px -5px;
+        }    
+    </style>
+</head>
+
+<body>
+    <h2>
+        CSS box-shadow property
+    </h2>
+    <p>
+        The fourth value decides the size of the shadow, 
+        positive value results in larger shadow while negative
+        value results in smaller shadow.
+     </p>
+    <div class="container">
+
+        <p class="first boxes">
+            box-shadow: 10px 10px 10px 5px
+        </p>
+        <p class="second boxes">
+            box-shadow: 10px -10px 20px 14px
+        </p>
+        <p class="third boxes">
+            box-shadow: -10px 10px 40px -5px
+        </p>
+
+    </div>
+
+</body>
+
+</html>

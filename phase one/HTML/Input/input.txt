@@ -1,0 +1,39 @@
+🧱 What Is the <input> Tag in HTML?
+
+The <input> tag is one of the most important elements in an HTML form.
+
+It’s used to collect user input such as text, email, password, number, date, file upload, and more.
+
+🧩 Basic Syntax
+
+<input type="text" name="username" placeholder="Enter your name" >
+
+✅ Explanation:
+
+type → defines the type of input (text, email, password, etc.)
+
+name → used to identify the input in backend form processing
+
+placeholder → shows hint text inside the box
+
+🧮 Common Input Types
+
+Type	Description	Example
+
+text	Single-line text input	<input type="text">
+password	Hides input characters	<input type="password">
+email	For email input (with validation)	<input type="email">
+number	For numeric input	<input type="number">
+date	Date picker	<input type="date">
+radio	Select one option 	<input type="radio">
+checkbox	Select multiple options	<input type="checkbox">
+file	Upload files	<input type="file">
+submit	Submits form	<input type="submit">
+reset	Resets form values	<input type="reset">
+button	General button	<input type="button">
+color	Color picker	<input type="color">
+range	Slider input	<input type="range" min="0" max="100">
+tel	Phone number input	<input type="tel">
+url	Website URL input	<input type="url">
+search	Search box	<input type="search">
+hidden	Hidden field (not visible to user)	<input type="hidden" value="1234">

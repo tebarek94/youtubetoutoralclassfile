@@ -1,0 +1,35 @@
+🌐 Step-by-Step: How a Website Works
+
+User Enters a URL
+
+You type something like www.google.com into your browser (Chrome, Edge, Safari, etc.).
+
+Browser Sends a Request
+
+Your browser sends a request through the internet to the website’s server.
+
+It finds the server using the domain name system (DNS), which translates the name (like www.google.com ) into an IP address (like 192.168.1.1).
+
+Server Receives the Request
+
+The server is a computer that stores the website’s code, images, and data.
+
+It checks what the user wants — maybe a homepage,a product list, or some information.
+
+Server Processes and Responds
+
+The server might use backend code (like Node.js, PHP, or Python) to get data from a database (like MySQL or MongoDB).
+
+It then sends back a response — usually a mix of HTML, CSS, and JavaScript files.
+
+Browser Renders the Page
+
+Your browser receives those files and builds the web page on your screen.
+
+HTML defines the structure,
+CSS styles it (colors, fonts, layout),
+and JavaScript makes it interactive (buttons, animations, etc.).
+
+You See the Website
+
+The page appears on your screen — ready for you to scroll, click, and interact!

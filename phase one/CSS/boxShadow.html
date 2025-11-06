@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .boxes {
+            padding: 50px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .first {
+            background-color: lightcoral;
+            box-shadow: 10px 10px;
+        }
+        .second {
+            background-color: lightblue;
+            box-shadow: 10px -10px;
+        }
+        .third {
+            background-color: lightgreen;
+            box-shadow: -10px 10px;
+        }
+        .fourth {
+            background-color: lightgrey;
+            box-shadow: -10px -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        CSS box-shadow property
+    </h2>
+    <p>
+        Positive horizontal offset places the shadow
+        to the right of box and negative horizotal offset
+        places the shadow to the left of box. 
+    </p>
+    <p>
+        Positive vertical offset places the 
+        shadow below the box and negative values places
+        it above the box.
+    </p>
+    <div class="container">
+
+        <p class="first boxes">
+            box-shadow: 10px 10px
+        </p>
+        <p class="second boxes">
+            box-shadow: 10px -10px
+        </p>
+        <p class="third boxes">
+            box-shadow: -10px 10px
+        </p>
+        <p class="fourth boxes">
+            box-shadow: -10px -10px
+        </p>
+    </div>
+
+</body>
+
+</html>   

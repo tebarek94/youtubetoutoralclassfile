@@ -1,0 +1,68 @@
+🎯 Lesson Objectives
+
+By the end of this lesson, learners will be able to:
+
+Understand what JavaScript is and what it’s used for.
+
+Explain the relationship between JavaScript, HTML, and CSS.
+
+Write and run simple JavaScript code using the browser console and a <script> tag.
+
+1. What is JavaScript?
+
+JavaScript (JS) is a programming language that adds interactivity and logic to web pages.
+While HTML structures content and CSS styles it, JavaScript makes it dynamic and functional.
+What is JavaScript?
+JavaScript is the programming language of the web.
+
+It can calculate, manipulate and validate data.
+
+It can update and change both HTML and CSS.
+
+📘 Example Use Cases:
+
+Showing pop-up messages (alerts)
+
+Validating form input
+
+Animations and transitions
+
+Handling button clicks or user actions
+***********************************************
+
+***********************************************
+Building full web apps (like Gmail or TikTok)
+2. History and Importance of JavaScript
+
+Created in 1995 by Brendan Eich at Netscape.
+
+Originally called Mocha, later renamed LiveScript, and finally JavaScript.
+
+Today, JavaScript runs everywhere — browsers, servers (via Node.js), and even mobile apps.
+
+💡 Fun Fact:
+Over 98% of all websites use JavaScript — it’s one of the most popular programming languages in the world
+
+*************************************************
+*************************************************
+3. How JavaScript Works with HTML and CSS
+
+
+Think of a website like a human body:
+
+HTML → the skeleton (structure)
+
+CSS → the skin/clothes (design)
+
+JavaScript → the brain (behavior/interactivity)
+
+🧱 Example:
+When a user clicks a button (HTML),
+CSS makes it look nice, and
+JavaScript tells the browser what to do (e.g., show a message).
+
+📄 Simple Diagram:
+
+HTML → Content
+CSS  → Style
+JS   → Action
