@@ -1,0 +1,64 @@
+ body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f5f7fa;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 25px 35px;
+        border-radius: 15px;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      /* 🎉 Title Animation */
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 15px;
+        font-size: 32px;
+
+        opacity: 0;
+        transform: translateY(-30px);
+        animation: fadeSlide 1.2s ease-out forwards;
+      }
+
+      @keyframes fadeSlide {
+        0% {
+          opacity: 0;
+          transform: translateY(-30px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      h2 {
+        color: #444;
+        margin-top: 30px;
+      }
+
+      ul {
+        background: #f0f0ff;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      ul li {
+        margin-bottom: 8px;
+        font-size: 18px;
+      }
+
+      pre {
+        background: #272822;
+        color: #f8f8f2;
+        padding: 18px;
+        border-radius: 10px;
+        overflow-x: auto;
+        font-size: 16px;
+      }

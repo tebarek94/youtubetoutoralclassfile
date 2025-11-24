@@ -1,0 +1,47 @@
+ 
+
+ ************************************************************************
+ Loops
+    JavaScript offers several types of loops to repeatedly execute a block of code 
+    until a specified condition is met. These loops are essential for tasks such as 
+    iterating over arrays or performing actions a certain number of times.
+
+ Common JavaScript Loops:
+
+ *******************************************************************
+ JavaScript For Loop
+        For Loops can execute a block of code a number of times.
+        For Loops are fundamental for tasks like performing an action multiple times.
+        The For Loop
+        The for statement creates a loop with 3 optional expressions:
+        for (exp 1; exp 2; exp 3) {
+        // code block to be executed
+        }
+        exp 1 is executed (one time) before the execution of the code block.
+        exp 2 defines the condition for executing the code block.
+        exp 3 is executed (every time) after the code block has been executed.
+
+*********************************************************************
+For example
+       for (let i = 0; i < 5; i++) {
+        console.log(i); // Prints 0, 1, 2, 3, 4
+        }
+
+********************************************************************
+while loop.
+
+   Executes a block of code as long as a specified condition remains true.
+         let count = 0;
+    while (count < 3) {
+      console.log(count); // Prints 0, 1, 2
+      count++;
+    }
+
+*********************************************************************
+do...while loop.
+    Similar to a while loop, but the code block is executed at least once before the condition is checked.
+        let num = 0;
+        do {
+        console.log(num); // Prints 0
+        num++;
+        } while(num < 0);

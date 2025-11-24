@@ -1,0 +1,96 @@
+
+
+*******************************
+
+       JavaScript Operators
+
+*******************************
+
+JavaScript operators are special symbols or keywords that perform operations
+ on one or more values (operands) and return a result. 
+ const resut= a+b
+ They are fundamental for manipulating data and controlling program flow.
+
+
+
+Here are the main types of JavaScript operators: 
+
+    Arithmetic Operators: Perform mathematical calculations.
+        + (Addition)
+        - (Subtraction)
+        * (Multiplication)
+        / (Division)
+        % (Remainder/Modulo)
+        ** (Exponentiation)
+        ++ (Increment)
+        -- (Decrement)
+
+        let a = 10 + 5;  // Addition
+        let b = 10 - 5;  // Subtraction
+        let c = 10 * 5;  // Multiplication
+        let d = 10 / 5;  // Division
+        let e = 10 % 3;  // Modulus (remainder)
+        let f = 2 ** 3;  // Exponentiation (2 to the power of 3)
+        let g = 5;
+        g++;             // Increment (g becomes 6)
+        let h = 5;
+        h--;             // Decrement (h becomes 4)
+
+
+    Assignment Operators: Assign values to variables.
+        = (Simple assignment)
+        let g=6
+        += (Add and assign)
+        -= (Subtract and assign)
+        *= (Multiply and assign)
+        /= (Divide and assign)
+        %= (Remainder and assign)
+        **= (Exponentiate and assign)
+
+        += (Add and assign) 
+        let a=9
+        a+=4
+        a=a+4
+        a=9+4
+       
+
+
+
+    
+
+    Comparison Operators: Compare two values and return a boolean (true or false).
+        == (Equality - checks value only)
+        let a=9;
+        let b="11"
+        a==b
+        != (Inequality - checks value only)
+        === (Strict equality - checks value and type)
+        !== (Strict inequality - checks value and type)
+        > (Greater than)
+        < (Less than)
+        >= (Greater than or equal to)
+        <= (Less than or equal to)
+        const x=4
+        const y= 8
+        const age>=18
+
+
+        let result1 = (5 == 5);   // Equal to (value only) - true
+            let result2 = (5 === '5'); // Strict equal to (value and type) - false
+            let result3 = (5 != 10);  // Not equal to - true
+            let result4 = (5 !== '5'); // Strict not equal to - true
+            let result5 = (10 > 5);   // Greater than - true
+            let result6 = (5 < 10);   // Less than - true
+            let result7 = (10 >= 10); // Greater than or equal to - true
+            let result8 = (5 <= 5);   // Less than or equal to - true
+
+
+    Logical Operators: Combine or manipulate boolean values.
+    && (Logical AND)
+    a=true b = true 
+     return true
+    || (Logical OR)
+    a= false and b = false return false
+    ! (Logical NOT)
+    a = true  false
+    ?? (Nullish Coalescing - returns the right-hand operand if the left-hand operand is null or undefined)
